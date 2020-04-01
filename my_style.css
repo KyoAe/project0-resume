@@ -25,6 +25,20 @@
 	background-color: #F8EFE4;
 }
 
+.gio-table thead{
+	background-color: #EFA851;
+}
+
+.gio-table tbody tr:nth-of-type(2n+1)
+{
+	background-color: #F8EFE4;
+}
+
+.gio-table tbody tr:nth-of-type(2n)
+{
+	background-color: #FCD5A5;
+}
+
 /*=== w3school timeline template ===*/
 
 /* The actual timeline (the vertical ruler) */
@@ -86,7 +100,7 @@
   top: 22px;
   width: 0;
   z-index: 1;
-  right: 30px;
+  right: 31px;
   border: medium solid #EFA851;
   border-width: 10px 0 10px 10px;
   border-color: transparent transparent transparent #EFA851;
@@ -100,7 +114,7 @@
   top: 22px;
   width: 0;
   z-index: 1;
-  left: 30px;
+  left: 31px;
   border: medium solid #F8EFE4;
   border-width: 10px 10px 10px 0;
   border-color: transparent #F8EFE4 transparent transparent;
@@ -136,7 +150,7 @@
 
 /* Make sure that all arrows are pointing leftwards */
   .container-w3s::before {
-    left: 60px;
+    left: 61px;
     border: medium solid white;
     border-width: 10px 10px 10px 0;
     /*border-color: transparent white transparent transparent;*/
