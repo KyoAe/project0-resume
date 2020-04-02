@@ -12,6 +12,11 @@ footer a:hover {
   height: 40px;
 }
 
+#foto-profil {
+  max-width: 100%;
+  max-height: 100%;
+}
+
 .gio-link {
   color: #2632e1;
 }
